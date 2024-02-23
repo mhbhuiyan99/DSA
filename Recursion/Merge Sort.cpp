@@ -42,6 +42,5 @@ void mS(vector<int> &arr, int l , int h)
 }
 
 void mergeSort(vector < int > & arr, int n) {
-    
     mS(arr, 0 , n-1);
 }
