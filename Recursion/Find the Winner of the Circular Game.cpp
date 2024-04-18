@@ -1,4 +1,6 @@
-Problem Link : https://leetcode.com/problems/find-the-winner-of-the-circular-game/description/
+Problem Link : 
+1) https://leetcode.com/problems/find-the-winner-of-the-circular-game/description/
+2) https://www.geeksforgeeks.org/problems/josephus-problem/1
 
 class Solution {
 public:
