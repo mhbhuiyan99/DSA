@@ -39,7 +39,7 @@ int frogJump(int n, vector<int> &heights)
     return dp[n-1];
 }
 --------------------------------------------------------------------------------
->>>   Space Optimization Approach
+>>>  Space Optimization Approach
 
 int frogJump(int n, vector<int> &heights)
 {
