@@ -1,6 +1,6 @@
 Problem Link : https://bit.ly/3JPcoOx
 
->>>  Top-Down approach  
+>>>  Top-Down Approach  
 
 int solve(int n, vector<int> &heights, vector<int> &dp)
 {
@@ -37,4 +37,23 @@ int frogJump(int n, vector<int> &heights)
         dp[i] = min(oneMove, twoMove);
     }
     return dp[n-1];
+}
+--------------------------------------------------------------------------------
+>>>   Space Optimization Approach
+
+int frogJump(int n, vector<int> &heights)
+{
+    int pre1 = 0;
+    int pre2 = 0;
+    for(int i=1; i < n; i++)
+    {
+        int oneMove = pre1 + abs( heights[i] - heights[i-1] );
+        int twoMove = INT_MAX;
+        if(i > 1)
+            twoMove = pre2 + abs( heights[i] - heights[i-2] );
+        int cur = min(oneMove, twoMove);
+        pre2 = pre1;
+        pre1 = cur;
+    }
+    return pre1;
 }
