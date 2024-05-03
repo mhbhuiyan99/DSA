@@ -63,4 +63,30 @@ int maximumPoints(vector<vector<int>>& points, int n) {
 
 >>> Space Optimization Approach
 
+    int maximumPoints(vector<vector<int>>& points, int n) {
+        
+        vector<int> pre(4, 0);
+        
+        pre[0] = max(points[0][1], points[0][2]);
+        pre[1] = max(points[0][0], points[0][2]);
+        pre[2] = max(points[0][1], points[0][0]);
+        pre[3] = max({points[0][0], points[0][1], points[0][2]});
+        
+        for(int day = 1; day < n; day++)
+        {
+            vector<int> tmp(4,0);
+            for(int lst = 0; lst < 4; lst++)
+            {
+                for(int task = 0; task < 3; task++)
+                {
+                    if(lst != task)
+                    {
+                        tmp[lst] = max(tmp[lst], pre[task] + points[day][task]);
+                    }
+                }
+            }
+            pre = tmp;
+        }
+        return pre[3];
+    }
 
