@@ -47,4 +47,34 @@ int uniquePathsWithObstacles(vector<vector<int>>& v) {
         }
         return dp[m-1][n-1];
     }
+---------------------------------------------------------------------------------
+
+>>>  Space Optimization Approach
+
+int uniquePathsWithObstacles(vector<vector<int>>& v) {
+        int m = v.size();
+        int n = v[0].size();
+        vector<int> pre(n,0);
+        
+        for(int i=0; i<m; i++)
+        {
+            vector<int> tmp(n,0);
+            for(int j=0; j<n; j++)
+            {
+                if(v[i][j] == 1) tmp[j] = 0;
+                else if(i == 0 and j == 0) tmp[j] = 1;
+                else if(v[i][j] == 0)
+                {
+                    int up = 0, left = 0;
+                    if(i > 0) up = pre[j];
+                    if(j > 0) left = tmp[j-1];
+                    tmp[j] = up + left;
+                }
+            }
+            pre = tmp;
+        }
+        return pre[n-1];
+    }
+
+
 
