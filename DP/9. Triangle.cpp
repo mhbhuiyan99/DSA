@@ -38,3 +38,23 @@ int minimumTotal(vector<vector<int>>& triangle) {
         }
         return dp[0][0];
     }
+---------------------------------------------------------------------------------
+>>>   Space Optimization Approach
+int minimumTotal(vector<vector<int>>& triangle) {
+        int n = triangle.size();
+        vector<int> post(n);
+        
+        for(int j = 0; j < n; j++)
+            post[j] = triangle[n-1][j];
+        
+        for(int i=n-2; i>=0; i--)
+        {
+            vector<int> tmp(i+1);
+            for(int j = 0; j <= i; j++ )
+            {
+                tmp[j] = triangle[i][j] + min(post[j], post[j+1]);
+            }
+            post = tmp;
+        }
+        return post[0];
+    }
