@@ -2,7 +2,7 @@ Problem Link: https://leetcode.com/problems/maximum-total-damage-with-spell-cast
 
 
 >>> Tabulation approach
-  
+   
 long long maximumTotalDamage(vector<int>& power) {
         
         map<int, int> cnt;
