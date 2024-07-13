@@ -3,4 +3,6 @@
 - [ ] [LeetCode 75](https://leetcode.com/studyplan/leetcode-75/)
 - [ ] [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
 - [ ] [Programming](https://www.interviewbit.com/courses/programming/)
+- [ ] [Interview Preparation: InterviewBit Kits](https://www.interviewbit.com/interview-preparation-kit/)
+- [ ] [Technical Interview Questions](https://www.interviewbit.com/technical-interview-questions/)
 
