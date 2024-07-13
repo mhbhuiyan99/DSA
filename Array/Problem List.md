@@ -1,0 +1,6 @@
+
+0. [Top 50 Array Coding Problems for Interviews](https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/?ref=outindfooter)
+1. [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)
+2. [3sum](https://leetcode.com/problems/3sum/description/)
+3. [Minimum element in a sorted and rotated array](https://www.geeksforgeeks.org/problems/minimum-element-in-a-sorted-and-rotated-array3611/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article)
+4. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
