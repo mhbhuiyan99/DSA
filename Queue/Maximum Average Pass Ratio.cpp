@@ -1,4 +1,5 @@
 Problem Link : https://leetcode.com/problems/maximum-average-pass-ratio/description/
+Explanation : https://youtu.be/vZwgYBpe92A?si=zouasXeVU2Q0mRYB
 
 double maxAverageRatio(vector<vector<int>>& classes, int eS) {
         
