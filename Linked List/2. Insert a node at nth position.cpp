@@ -29,7 +29,6 @@ void Insert(int val, int n)
     for (int i = 0; i < n - 2; i++)
     {
         temp2 = temp2 -> next;
-        n--;
     }
 
     temp1 -> next = temp2 -> next;
