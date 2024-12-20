@@ -17,7 +17,7 @@ void Insert(int val, int n)
        At first need to update the address of 'val' with n'th data's address
        then the n-1'th values address with 'val's address
 
-       for Visualization more easily : https://www.youtube.com/watch?v=0hGxILnKvJk
+       for Visualizing more easily : https://www.youtube.com/watch?v=0hGxILnKvJk
     */
     if (n == 1)  // Special case: inserting at the head
     {
