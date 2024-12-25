@@ -8,9 +8,7 @@ public:
         int totalQueries = queries.size();
 
         vector<int> ans(totalQueries, -1);
-
         unordered_map<int, vector<pair<int,int>>> mp;
-
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
         
         for (int q=0; q<totalQueries; q++) {
