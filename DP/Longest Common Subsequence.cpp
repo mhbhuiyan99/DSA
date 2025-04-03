@@ -53,11 +53,8 @@ int longestCommonSubsequence(string a, string b) {
         {
             for(int j = b.size() - 1; j >= 0; j--)
             {
-                int ans = 0;
-                if(a[i] == b[j]) ans = 1 + dp[i+1][j+1]; 
-                else ans = max(dp[i][j+1], dp[i+1][j]);
-
-                dp[i][j] = ans;
+                if(a[i] == b[j]) dp[i][j] = 1 + dp[i+1][j+1]; 
+                else dp[i][j] = max(dp[i][j+1], dp[i+1][j]);
             }
         }
         return dp[0][0];
