@@ -11,7 +11,8 @@
 9. [Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/description/)
 10. [Minimum Number of Operations to Move All Balls to Each Box  ***](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)
 11. [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
-12. 
+12. [Rotate Array](https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1)
+13. 
 
 ### Matrix:
 1. [Rotate Image](https://leetcode.com/problems/rotate-image/description/)
