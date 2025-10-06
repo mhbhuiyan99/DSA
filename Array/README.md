@@ -7,7 +7,7 @@
 5. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)
 6. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 7. [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence?envType=study-plan-v2&envId=leetcode-75)
-8. [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/description/) :: common pattern
+8. [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/description/) : common pattern
 9. [Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/description/)
 10. [Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)***
 11. [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
