@@ -1,0 +1,15 @@
+## Problem List:
+1. [Merge Sort](https://www.codingninjas.com/studio/problems/merge-sort_920442)
+2. [Quick Sort](https://www.codingninjas.com/studio/problems/quick-sort_983625)
+3. [Combination Sum](https://leetcode.com/problems/combination-sum/)
+4. [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+5. [Subset Sums](https://www.geeksforgeeks.org/problems/subset-sums2234/1)
+6. [Subsets II](https://leetcode.com/problems/subsets-ii/description/)
+7. [Permutations](https://leetcode.com/problems/permutations/description/)
+8. [N-Queens](https://leetcode.com/problems/n-queens/description/)
+9. [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)
+10. [M-Coloring Problem](https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1)
+11. [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
+12. [Rat in a Maze Problem - I.](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)
+13. [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)
+14. 
