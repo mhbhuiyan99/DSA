@@ -1,4 +1,4 @@
-// Problem Link: https://leetcode.com/problems/reordered-power-of-2?envType=daily-question&envId=2025-08-16
+// Problem Link: https://leetcode.com/problems/reordered-power-of-2/
 
 class Solution {
 
